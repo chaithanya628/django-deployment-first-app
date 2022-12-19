@@ -83,3 +83,9 @@ def senddatetime(request):
 	</html>
 	''';
 	return HttpResponse(ss);
+
+
+
+#git hub view func
+def git_hub_view(request):
+	return HttpResponse("<h1>Hello Good Morning User</h1><hr/>");
